@@ -28,14 +28,14 @@ function DOMtoString(document_root) {
     re = /http:\/\/www(.*).zippyshare.com\/v\/(.*?).*?(file.html)/gi
     var zippyLink = html.match(re) + '';
     var linkArray = zippyLink.split(',')
+    console.log(linkArray);
     var ID = checkIfArrayIsUnique(linkArray);
     if (this.ID = false) {
-        return linkArray [1]
+        return linkArray[1];
     }
     else {
         return linkArray;
-    }
-    console.log(linkArray);
+    };
 }
 
 function checkIfArrayIsUnique(myArray) 
