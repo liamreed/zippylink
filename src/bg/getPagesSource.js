@@ -31,10 +31,10 @@ function DOMtoString(document_root) {
     console.log(linkArray);
     var ID = checkIfArrayIsUnique(linkArray);
     if (this.ID = false) {
-        return linkArray[1];
+        return linkArray[0];
     }
     else {
-        return linkArray;
+        return linkArray[1];
     };
 }
 
