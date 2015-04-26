@@ -35,7 +35,7 @@ function DOMtoString(document_root) {
     else {
         return linkArray;
     }
-    console.log(ID);
+    console.log(linkArray);
 }
 
 function checkIfArrayIsUnique(myArray) 
